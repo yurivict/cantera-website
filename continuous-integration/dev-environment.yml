@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+dependencies:
+  - mypy
+  - flake8
+  - black
+  - pre-commit
+category: dev
