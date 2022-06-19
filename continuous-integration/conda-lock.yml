@@ -17,9 +17,9 @@ metadata:
   - url: conda-forge
     used_env_vars: []
   content_hash:
-    linux-64: 8d1805913a2b8d1232680a6bf778dcf80c416605450271fb4ae0962103aef922
-    osx-64: 81f955caf7153447f2368e2a23b258c9dc080a64b0cc788b8757a6ea997598af
-    win-64: 244e34c04ccb5609d63b0f413ec5aeac590be88b1e4678dafef2b38b97c130d6
+    linux-64: 625421345d35e59d5e603eb1e12b2453c07aa2b1d929491aabc5a49070eeccc0
+    osx-64: 8ae3c4a738c092edf25dbacbe50626c646de2c7ad5f0f793ca9e6471d8a6d6d6
+    win-64: 90d6f0f68a6dfc13daca2d9cc1da6130e7a6c03a35a58656200dc3a15a61e6e6
   platforms:
   - osx-64
   - linux-64
@@ -348,16 +348,16 @@ package:
   version: 2.0.12
 - category: main
   dependencies:
-    python: ''
+    python: '>=3.6'
   hash:
-    md5: c08b4c1326b880ed44f3ffb04803332f
-    sha256: ddf1749f0fd5a098a7954d98267cebca83a36b86719ce4ab6fc4aa94ef518432
+    md5: c267da48ce208905d7d976d49dfd9433
+    sha256: fcab1a16af5daf3a1ea9b0a7ed15615f0d5fff05ff4925ed570988868bb29e38
   manager: conda
   name: colorama
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.4-pyh9f0ad1d_0.tar.bz2
-  version: 0.4.4
+  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.5-pyhd8ed1ab_0.tar.bz2
+  version: 0.4.5
 - category: dev
   dependencies:
     python: '>=3.7'
@@ -699,14 +699,14 @@ package:
     python: '>=3.6'
     pytz: ''
   hash:
-    md5: 8bdb046f8fa454bd4da1c48aa9e20f1d
-    sha256: 47cd4beb5d1f52628ebb227bb98fee68ee66a1fc70498eb29ac01a709943078e
+    md5: 72f1c6d03109d7a70087bc1d029a8eda
+    sha256: 45297f4ce5786ff5bdf188846fcaa163f45629eebc285faf2e9e2cbeb6e57a91
   manager: conda
   name: babel
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.2-pyhd8ed1ab_0.tar.bz2
-  version: 2.10.2
+  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.3-pyhd8ed1ab_0.tar.bz2
+  version: 2.10.3
 - category: main
   dependencies:
     python: '>=3.6'
@@ -1195,14 +1195,14 @@ package:
     sphinxcontrib-qthelp: ''
     sphinxcontrib-serializinghtml: '>=1.1.5'
   hash:
-    md5: 6b274a73ef9f4634b03fb6f90e784a4f
-    sha256: 63ac665d576c75f1b08ed29dfb424f519f7d034f623abab7e1ce41c446850546
+    md5: d4eaa1f50733a377480ce1d5aac556c7
+    sha256: 27fc8d942d1cedba71035399f71e2d81fd411b86c5d8717c813c46143b8d74f8
   manager: conda
   name: sphinx
   optional: false
   platform: linux-64
-  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.1-pyh6c4a22f_0.tar.bz2
-  version: 5.0.1
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.2-pyh6c4a22f_0.tar.bz2
+  version: 5.0.2
 - category: main
   dependencies:
     docutils: '>=0.15,<0.19'
@@ -1238,6 +1238,19 @@ package:
   platform: linux-64
   url: https://conda.anaconda.org/conda-forge/noarch/pydata-sphinx-theme-0.9.0-pyhd8ed1ab_1.tar.bz2
   version: 0.9.0
+- category: main
+  dependencies:
+    python: '>=3.6'
+    sphinx: '>=4,<6'
+  hash:
+    md5: 2da620748d4ba74626206b084442f545
+    sha256: 67655dc916afe733025213513cf984efa98cd74b5f9184a86c387438bfb289a1
+  manager: conda
+  name: sphinx-design
+  optional: false
+  platform: linux-64
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-design-0.2.0-pyhd8ed1ab_1.tar.bz2
+  version: 0.2.0
 - category: main
   dependencies: {}
   hash:
@@ -1459,16 +1472,16 @@ package:
   version: 2.0.12
 - category: main
   dependencies:
-    python: ''
+    python: '>=3.6'
   hash:
-    md5: c08b4c1326b880ed44f3ffb04803332f
-    sha256: ddf1749f0fd5a098a7954d98267cebca83a36b86719ce4ab6fc4aa94ef518432
+    md5: c267da48ce208905d7d976d49dfd9433
+    sha256: fcab1a16af5daf3a1ea9b0a7ed15615f0d5fff05ff4925ed570988868bb29e38
   manager: conda
   name: colorama
   optional: false
   platform: osx-64
-  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.4-pyh9f0ad1d_0.tar.bz2
-  version: 0.4.4
+  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.5-pyhd8ed1ab_0.tar.bz2
+  version: 0.4.5
 - category: dev
   dependencies:
     python: '>=3.7'
@@ -1810,14 +1823,14 @@ package:
     python: '>=3.6'
     pytz: ''
   hash:
-    md5: 8bdb046f8fa454bd4da1c48aa9e20f1d
-    sha256: 47cd4beb5d1f52628ebb227bb98fee68ee66a1fc70498eb29ac01a709943078e
+    md5: 72f1c6d03109d7a70087bc1d029a8eda
+    sha256: 45297f4ce5786ff5bdf188846fcaa163f45629eebc285faf2e9e2cbeb6e57a91
   manager: conda
   name: babel
   optional: false
   platform: osx-64
-  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.2-pyhd8ed1ab_0.tar.bz2
-  version: 2.10.2
+  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.3-pyhd8ed1ab_0.tar.bz2
+  version: 2.10.3
 - category: main
   dependencies:
     python: '>=3.6'
@@ -2297,14 +2310,14 @@ package:
     sphinxcontrib-qthelp: ''
     sphinxcontrib-serializinghtml: '>=1.1.5'
   hash:
-    md5: 6b274a73ef9f4634b03fb6f90e784a4f
-    sha256: 63ac665d576c75f1b08ed29dfb424f519f7d034f623abab7e1ce41c446850546
+    md5: d4eaa1f50733a377480ce1d5aac556c7
+    sha256: 27fc8d942d1cedba71035399f71e2d81fd411b86c5d8717c813c46143b8d74f8
   manager: conda
   name: sphinx
   optional: false
   platform: osx-64
-  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.1-pyh6c4a22f_0.tar.bz2
-  version: 5.0.1
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.2-pyh6c4a22f_0.tar.bz2
+  version: 5.0.2
 - category: main
   dependencies:
     docutils: '>=0.15,<0.19'
@@ -2340,6 +2353,19 @@ package:
   platform: osx-64
   url: https://conda.anaconda.org/conda-forge/noarch/pydata-sphinx-theme-0.9.0-pyhd8ed1ab_1.tar.bz2
   version: 0.9.0
+- category: main
+  dependencies:
+    python: '>=3.6'
+    sphinx: '>=4,<6'
+  hash:
+    md5: 2da620748d4ba74626206b084442f545
+    sha256: 67655dc916afe733025213513cf984efa98cd74b5f9184a86c387438bfb289a1
+  manager: conda
+  name: sphinx-design
+  optional: false
+  platform: osx-64
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-design-0.2.0-pyhd8ed1ab_1.tar.bz2
+  version: 0.2.0
 - category: main
   dependencies: {}
   hash:
@@ -2561,16 +2587,16 @@ package:
   version: 2.0.12
 - category: main
   dependencies:
-    python: ''
+    python: '>=3.6'
   hash:
-    md5: c08b4c1326b880ed44f3ffb04803332f
-    sha256: ddf1749f0fd5a098a7954d98267cebca83a36b86719ce4ab6fc4aa94ef518432
+    md5: c267da48ce208905d7d976d49dfd9433
+    sha256: fcab1a16af5daf3a1ea9b0a7ed15615f0d5fff05ff4925ed570988868bb29e38
   manager: conda
   name: colorama
   optional: false
   platform: win-64
-  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.4-pyh9f0ad1d_0.tar.bz2
-  version: 0.4.4
+  url: https://conda.anaconda.org/conda-forge/noarch/colorama-0.4.5-pyhd8ed1ab_0.tar.bz2
+  version: 0.4.5
 - category: dev
   dependencies:
     python: '>=3.7'
@@ -2912,14 +2938,14 @@ package:
     python: '>=3.6'
     pytz: ''
   hash:
-    md5: 8bdb046f8fa454bd4da1c48aa9e20f1d
-    sha256: 47cd4beb5d1f52628ebb227bb98fee68ee66a1fc70498eb29ac01a709943078e
+    md5: 72f1c6d03109d7a70087bc1d029a8eda
+    sha256: 45297f4ce5786ff5bdf188846fcaa163f45629eebc285faf2e9e2cbeb6e57a91
   manager: conda
   name: babel
   optional: false
   platform: win-64
-  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.2-pyhd8ed1ab_0.tar.bz2
-  version: 2.10.2
+  url: https://conda.anaconda.org/conda-forge/noarch/babel-2.10.3-pyhd8ed1ab_0.tar.bz2
+  version: 2.10.3
 - category: main
   dependencies:
     python: '>=3.6'
@@ -3430,14 +3456,14 @@ package:
     sphinxcontrib-qthelp: ''
     sphinxcontrib-serializinghtml: '>=1.1.5'
   hash:
-    md5: 6b274a73ef9f4634b03fb6f90e784a4f
-    sha256: 63ac665d576c75f1b08ed29dfb424f519f7d034f623abab7e1ce41c446850546
+    md5: d4eaa1f50733a377480ce1d5aac556c7
+    sha256: 27fc8d942d1cedba71035399f71e2d81fd411b86c5d8717c813c46143b8d74f8
   manager: conda
   name: sphinx
   optional: false
   platform: win-64
-  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.1-pyh6c4a22f_0.tar.bz2
-  version: 5.0.1
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-5.0.2-pyh6c4a22f_0.tar.bz2
+  version: 5.0.2
 - category: main
   dependencies:
     docutils: '>=0.15,<0.19'
@@ -3473,4 +3499,17 @@ package:
   platform: win-64
   url: https://conda.anaconda.org/conda-forge/noarch/pydata-sphinx-theme-0.9.0-pyhd8ed1ab_1.tar.bz2
   version: 0.9.0
+- category: main
+  dependencies:
+    python: '>=3.6'
+    sphinx: '>=4,<6'
+  hash:
+    md5: 2da620748d4ba74626206b084442f545
+    sha256: 67655dc916afe733025213513cf984efa98cd74b5f9184a86c387438bfb289a1
+  manager: conda
+  name: sphinx-design
+  optional: false
+  platform: win-64
+  url: https://conda.anaconda.org/conda-forge/noarch/sphinx-design-0.2.0-pyhd8ed1ab_1.tar.bz2
+  version: 0.2.0
 version: 1
